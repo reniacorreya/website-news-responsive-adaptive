@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<!--Using the subtag en as the text is in English.-->
+<html lang="en">
+      <head>
+            <title>News - Latest News & Headlines</title>
+            <meta charset="utf-8">
+
+            <!--Setting the viewport parameters-->
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            <!--Including external stylesheets and scripts required for bootstrap and icons-->
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" type="text/css" href="css/contactStyle.css">
+            <link rel="stylesheet" type="text/css" href="css/commonStyle.css">
+            <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+            
+            <script>
+                  //Script to enable submit on Enter key press 
+                  //Referred from https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML
+                  document.onkeydown = (e) => {
+                        // The Enter/Return key
+                        if (e.key === "Enter") {
+                              document.activeElement.click();
+                        }
+                  };
+            </script>
+
+      </head>
+      <body>
+
+            <!--Header of the page-->
+            <div class="jumbotron text-right text-white banner">
+                  <h1>News</h1>
+                  <p>Latest News and Headlines 24 X 7</p>
+            </div>
+            <!--End Header of the page-->
+
+            <!--Navigation bar-->
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+                  <ul class="navbar-nav">
+                        <li class="nav-item">
+                              <a class="nav-link" href="../Responsive_website/Home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                              <a class="nav-link" href="../Responsive_website/Article.html">Article</a>
+                        </li>
+                        <li class="nav-item active">
+                              <a class="nav-link" href="../Responsive_website/Contact.html">Contact Us</a>
+                        </li>
+                  </ul>
+            </nav>
+            <!--End Navigation bar-->
+
+            <!--Title of the content-->
+            <div class="container pt-5 pl-5 pr-5">
+                  <div class="row-sm">
+                        <div class="col-sm text-center">
+                              <h2 class="text-center font-italic title">CONTACT US</h2>
+                        </div>
+                  </div>
+            </div>
+            <!--End Title of the content-->
+
+            <!--Container div-->
+            <div class="container-fluid pt-5 pl-5 pr-5 pb-5">
+
+                  <!--Container row with an Image and contact form-->
+                  <div class="row">
+                        
+                        <!--Column 1 with an image-->
+                        <div class="col-sm-4 text-white pt-5 pr-3 pl-5">
+                              <div>
+                                    <img src="images/contact1.png" class="img-fluid" alt="Contact image">
+                              </div>
+                        </div>
+                        <!--End Column 1-->
+
+                        <!--Column 2 with contact form-->
+                        <div class="col-sm-8 pt-5 pr-5 pl-3 bgform">
+
+                              <!--Contact form-->
+                              <form id="contactform">
+                                    <div class="form-group">
+                                          <i class="fa fa-user icon"></i>
+                                          <label for="name">Name:</label>
+                                          <input type="text" class="form-control" placeholder="Enter name" required id="name">
+                                    </div>
+                                    <div class="form-group">
+                                          <i class="fa fa-envelope icon"></i>
+                                          <label for="email">Email address:</label>
+                                          <input type="email" class="form-control" placeholder="Enter email" required id="email">
+                                    </div>
+                                    <div class="form-group">
+                                          <i class="fa fa-align-left icon"></i>
+                                          <label for="message">Message:</label>
+
+                                          <!--Used textarea as messages can be long-->
+                                          <textarea id="message" class="form-control" name="message" rows="4" cols="50" required placeholder="Enter message"></textarea>
+                                    </div>
+
+                                    <!--Button to submit Contact form-->
+                                    <button type="submit" id="button1" class="btn btn-primary">Submit</button>
+                              </form>
+                              <!--End Contact form-->
+
+                        </div>
+                        <!--End Column 2-->
+                  </div>
+            </div>
+
+            <!--Footer of the page-->
+            <div class="jumbotron text-center bg-dark text-white footer">
+                  <h4>News</h4>
+                  <p>Latest News and Headlines 24 X 7</p>
+                  <a class="footerLink" href="../Responsive_website/Contact.html">Contact Us</a>
+            </div>
+            <!--End Footer of the page-->
+
+      </body>
+</html>
