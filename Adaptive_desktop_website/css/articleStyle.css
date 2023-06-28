@@ -1,0 +1,116 @@
+/* This file is to apply style to Article.html */
+
+
+/* Set a style for the link to the article page */
+a.articleLink:link {
+color: rgb(55, 55, 55);  
+text-decoration: none;
+}
+
+a.articleLink:visited {
+color: rgb(0, 0, 0);  
+text-decoration: none;
+}
+
+a.articleLink:hover {
+color: rgb(8, 97, 57);
+text-decoration: none;
+}
+
+
+/* Set a style for the image thumbnail */
+.img-thumbnail {
+padding: 0.25rem;
+background-color: #fff;
+border: 1px solid #dee2e6;
+border-radius: 0.25rem;
+max-width: 100%;
+height: auto;
+}
+
+/* Set a style for the div with article and relative news */
+.columnArticle {
+float: left;
+width: 75.00%;
+padding: 5px;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.columnRelative {
+float: left;
+width: 25.00%;
+padding: 5px;
+padding-left: 18px;
+padding-right: 18px;
+padding-top: 47px;
+}
+
+div.articleHeight{
+  height: 2200px;
+  }
+
+/* Set a style for the div */
+div.bgBlue {
+background-color:rgb(210, 226, 238);
+}
+
+div.bgOlive {
+background-color:rgb(214, 219, 213);
+}
+
+/* Set a style for the headings */
+h3.title {
+box-shadow: 3px 3px red, -0.5em 0 .4em rgb(99, 99, 99);
+}
+
+h3 {  
+line-height: 1;
+font-weight:500;
+font-size:larger;
+}
+
+h5 {  
+line-height: 0;
+font-weight:500;
+font-size:larger;
+}
+
+h6 {
+font-size: 1rem;
+margin-bottom: 0;
+font-weight: 500;
+line-height: 1.2;
+margin-top: 0;
+text-align: justify;
+}
+
+h4.subTitle {
+box-shadow: 10px 5px 5px rgb(37, 37, 37);
+background-color:rgb(152, 188, 215);
+text-align: center;
+font-style: italic;
+}
+
+/* Set a style for the article block quote  */
+.blockquote {
+display: block;
+font-size: 0.8rem;
+color: #6c757d;
+text-align: right;
+}
+
+.blockquote::before {
+content: "\2014\00A0";
+}
+
+/* Set a style for the media content*/
+video {
+width: 100%;
+height: auto;
+}
+
+img.article {
+width: 100%;
+height: auto;
+}

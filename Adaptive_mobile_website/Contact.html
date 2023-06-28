@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=360px, initial-scale=1.0">
+            <!--Using external CSS stylesheets-->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" type="text/css" href="css/contactStyle.css">
+            <link rel="stylesheet" type="text/css" href="css/commonStyle.css">
+            <title>News - Latest News & Headlines</title>
+      </head>
+      <body>
+            <div class="outer">
+                  <!--Header of the page-->
+                  <div class="header">
+                        <h1>News</h1>
+                        <p>Latest News and Headlines 24 X 7</p>
+                  </div>
+                  <!--Navigation bar-->
+                  <div class="topnav">
+                        <ul class="navbar-nav">
+                              <li class="nav-item">
+                                    <a class="nav-link" href="../Adaptive_mobile_website/Home.html">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                    <a class="nav-link" href="../Adaptive_mobile_website/Article.html">Article</a>
+                              </li>
+                              <li class="nav-item">
+                                    <a class="nav-link-active" href="../Adaptive_mobile_website/Contact.html">Contact Us</a>
+                              </li>
+                        </ul>
+                  </div>
+                  <!--Title of the page-->
+                  <div class="title">
+                        <h2 class="title">CONTACT US</h2>
+                  </div>
+                  <!--Container div-->
+                  <div class="container">
+                        <!--Container row-->
+                        <div class="row">
+                              <!--Container column with an image-->
+                              <div class="contactColumn">
+                                    <div>
+                                          <img src="images/contact1.png" alt="Image not found">
+                                    </div>
+                              </div>
+                              <!--Container column with the contact form-->
+                              <div class="formColumn bgform">
+                                    <!--Contact form-->
+                                    <form id="contactform">
+                                          <!--Form fields-->
+                                          <div class="form-group">
+                                                <i class="fa fa-user icon"></i>
+                                                <label for="name">Name:</label>
+                                                <input type="text" class="form-control" placeholder="Enter name" required id="name">
+                                          </div>
+                                          <div class="form-group">
+                                                <i class="fa fa-envelope icon"></i>
+                                                <label for="email">Email address:</label>
+                                                <input type="email" class="form-control" placeholder="Enter email" required id="email">
+                                          </div>
+                                          <div class="form-group">
+                                                <i class="fa fa-align-left icon"></i>
+                                                <label for="message">Message:</label>
+                                                <!--Used textarea as messages can be long-->
+                                                <textarea id="message" class="form-control" name="message" rows="4" cols="50" required placeholder="Enter message"></textarea>
+                                          </div>
+                                          <!--Button to submit Contact form-->
+                                          <button type="submit" id="button1" class="btn">Submit</button>
+                                    </form>
+                              </div>
+                        </div>
+                  </div>
+                  <!--Footer-->
+                  <div class="footer">
+                        <h4>News</h4>
+                        <p>Latest News and Headlines 24 X 7</p>
+                        <a class="footerLink" href="../Adaptive_mobile_website/Contact.html">Contact Us</a>
+                  </div>
+            </div>
+      </body>
+</html>

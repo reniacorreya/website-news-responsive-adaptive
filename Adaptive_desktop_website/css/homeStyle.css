@@ -1,0 +1,45 @@
+/* This file is to apply style to Home.html */
+
+/* Set a style for article link */
+a.articleLink:link {
+color: rgb(55, 55, 55);  
+text-decoration: none;
+}
+
+a.articleLink:visited {
+color: rgb(0, 0, 0);  
+text-decoration: none;
+}
+
+a.articleLink:hover {
+color: rgb(8, 97, 57);
+text-decoration: none;
+}
+
+/* Set a style for the image thumbnail */
+.img-thumbnail {
+padding: 0.25rem;
+background-color: #fff;
+border: 1px solid #dee2e6;
+border-radius: 0.25rem;
+max-width: 100%;
+height: auto;
+}
+
+/* Set a style for the column div */
+.column {
+float: left;
+width: 25.00%;
+padding: 12px;
+height: auto; 
+}
+
+/* Set background color for div */
+div.bgOlive {
+background-color:rgb(214, 219, 213);
+}
+
+/* Set text alignment to justify */
+.text-justify{    
+text-align: justify;
+}
