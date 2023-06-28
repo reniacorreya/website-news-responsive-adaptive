@@ -1,0 +1,22 @@
+/* This file is to apply style to Home.html */
+
+/* unvisited link */
+a:link {
+color: rgb(55, 55, 55);
+}
+
+/* visited link */
+a:visited {
+color: rgb(0, 0, 0);
+}
+
+/* hover link */
+a:hover {
+color: rgb(8, 97, 57);
+text-decoration: none;
+}
+
+/* div background color */
+div.bgcolor {
+background-color:rgb(214, 219, 213);
+}

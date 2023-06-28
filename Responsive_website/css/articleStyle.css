@@ -1,0 +1,42 @@
+/* This file is to apply style to Article.html */
+
+/* Set a style for the unvisited link */
+a:link {
+color: rgb(55, 55, 55);
+}
+
+/* Set a style for the visited link */
+a:visited {
+color: rgb(0, 0, 0);
+}
+
+/* Set a style for the hover link */
+a:hover {
+color: rgb(8, 97, 57);
+text-decoration: none;
+}
+
+/* Set background color for the div */
+div.bgOlive {
+background-color:rgb(214, 219, 213);
+}
+
+div.bgBlue {
+background-color:rgb(210, 226, 238);
+}
+
+/* Set a style for the sub title */
+h4.subTitle {
+box-shadow: 10px 5px 5px rgb(37, 37, 37);
+background-color:rgb(152, 188, 215);
+}
+
+/* Set a style for the div with article */
+div.article {
+margin-top:30px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+  }

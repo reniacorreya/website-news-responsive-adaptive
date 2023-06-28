@@ -1,0 +1,35 @@
+/* || General styles */
+
+/* Set a style for the unvisited link for footer */
+a.footerLink:link {
+color: rgb(0, 85, 255);
+}
+
+/* Set a style for the visited link for footer */
+a.footerLink:visited {
+color: rgb(0, 85, 255);
+}
+
+/* Set a style for the hover link for footer */
+a.footerLink:hover {
+color: rgb(255, 255, 255);
+}
+
+/* Set a style for the div with banner */
+div.banner {
+background-image: url(../images/img17.jpg); margin-bottom:0; background-size: 100% 100%;
+}
+
+/* Set a style for the div with footer */
+div.footer {
+margin-bottom:0;
+}
+
+/* Set a style for the title */
+h2.title {
+box-shadow: 3px 3px red, -0.5em 0 .4em rgb(99, 99, 99);
+}
+
+.jumbotron {
+    border-radius: 0;
+}
